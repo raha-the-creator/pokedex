@@ -1,0 +1,108 @@
+.pokedex-card-container {
+  width: 300px;
+  height: 202px;
+  margin: 10px 10px;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+@mixin pokedex-card-cont($bg: #71d888) {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  height: 202px;
+  background-color: $bg;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 0 120px 20px 20px;
+}
+
+.pokedex-card-cont-Bug {
+  @include pokedex-card-cont($bg: #49d0b0);
+}
+
+.pokedex-card-cont-Dark {
+  @include pokedex-card-cont($bg: #1d1d1d);
+}
+
+.pokedex-card-cont-Dragon {
+  @include pokedex-card-cont($bg: #62cad9);
+}
+
+.pokedex-card-cont-Electric {
+  @include pokedex-card-cont($bg: #ffd743);
+}
+
+.pokedex-card-cont-Fairy {
+  @include pokedex-card-cont($bg: #ec3e83);
+}
+
+.pokedex-card-cont-Fighting {
+  @include pokedex-card-cont($bg: #994025);
+}
+
+.pokedex-card-cont-Fire {
+  @include pokedex-card-cont($bg: #fd6c6d);
+}
+
+.tpokedex-card-cont-Flying {
+  @include pokedex-card-cont($bg: #9f64b8);
+}
+
+.pokedex-card-cont-Ghost {
+  @include pokedex-card-cont($bg: #7b538c);
+}
+
+.pokedex-card-cont-Grass {
+  @include pokedex-card-cont($bg: #71d888);
+}
+
+.pokedex-card-cont-Ground {
+  @include pokedex-card-cont($bg: #c38355);
+}
+
+.pokedex-card-cont-Ice {
+  @include pokedex-card-cont($bg: #86d2f4);
+}
+
+.pokedex-card-cont-Normal {
+  @include pokedex-card-cont($bg: #b0b0b0);
+}
+
+.pokedex-card-cont-Poison {
+  @include pokedex-card-cont($bg: #9b69da);
+}
+
+.pokedex-card-cont-Psychic {
+  @include pokedex-card-cont($bg: #ed4f88);
+}
+
+.pokedex-card-cont-Rock {
+  @include pokedex-card-cont($bg: #a5623c);
+}
+
+.pokedex-card-cont-Steel {
+  @include pokedex-card-cont($bg: #787878);
+}
+
+.pokedex-card-cont-Water {
+  @include pokedex-card-cont($bg: #1552e2);
+}
+
+.pokedex-card-cont > h1 {
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.pokedex-card-image {
+  position: relative;
+  z-index: 1;
+  left: 180px;
+  bottom: 110px;
+}
+
+.pokedex-card-bg {
+  position: relative;
+  left: 150px;
+  bottom: 250px;
+}

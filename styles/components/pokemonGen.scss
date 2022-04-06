@@ -1,0 +1,28 @@
+.pokemon-gen-cont {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: none;
+  border-color: #a6a6a6;
+  width: 500px;
+  height: 80px;
+  padding: 0px;
+}
+
+.pokemon-gen-color {
+  background-color: #827e74;
+  width: 40px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pokemon-gen-text-cont {
+  padding: 10px;
+}
+
+.pokemon-gen-text {
+  color: white;
+}

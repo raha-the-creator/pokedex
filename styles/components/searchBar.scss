@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 35px;
+  padding: 5px 15px;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.search-bar:focus-within{
+  box-shadow: 0 0 2px #7F8C8E;
+}
+
+.searh-bar-text-box {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+}
+
+.search-bar-button {
+  background: none;
+  border: none;
+  font: inherit;
+  outline: inherit;
+  cursor: pointer;
+}

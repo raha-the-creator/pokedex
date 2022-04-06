@@ -1,0 +1,24 @@
+.list-button-cont {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 500px;
+  &:hover {
+    background-color: rgb(73, 68, 68);
+    transition: 0.5s;
+  }
+}
+
+.list-button-text {
+  color: white;
+  width: 190px;
+}
+
+.list-button-space {
+  width: 130px;
+}

@@ -1,0 +1,84 @@
+.login {
+    background-color: #1E1E1E;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.login-title-text-cont{    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    top: 130px;
+}
+
+.login-title-text {
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+}
+
+.login-credentials {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.login-credentials-fields {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.login-credentials-fields::-webkit-input-placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.login-credentials-fields:-ms-input-placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.login-credentials-fields:-moz-placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.login-credentials-fields::-moz-placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.login-credentials-buttons {
+    color: #ffffff;
+    font-weight: 800;
+    background-color: transparent;
+    border: solid 1px #FFFFFF;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 30px;
+}
+
+.login-credentials-link {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    margin: 15px 0; 
+    font-weight: 400;
+}
+
+.login-bottom-text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: #A6A6A6;
+    font-size: 14px;
+}

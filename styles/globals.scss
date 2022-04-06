@@ -1,0 +1,40 @@
+// import poppins google fonts
+// light: 300, regolar: 400, bold: 500
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import "./variables/general.scss";
+
+// pages
+@import "./index.scss";
+@import "./pokemonEntry.scss";
+@import "./settings.scss";
+@import "./login.scss";
+
+// components
+@import "./components/typingbox.scss";
+@import "./components/pokedexCardCont.scss";
+@import "./components/contextHeader.scss";
+@import "./components/searchBar.scss";
+@import "./components/pokemonEvolution.scss";
+@import "./components/toggleSwitch.scss";
+@import "./components/listButton.scss";
+@import "./components/pokemonType.scss";
+@import "./components/pokemonGen.scss";
+@import "./components/baseStats.scss";
+@import "./components/infoTab.scss";
+@import "./components//dropZone.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

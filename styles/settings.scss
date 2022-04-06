@@ -1,0 +1,71 @@
+// .button-cont {
+//   display: flex;
+//   flex-direction: row;
+//   button {
+//     font-family: Poppins;
+//     font-weight: light;
+//     background: none;
+//     border: none;
+//     font-size: 24px;
+//     margin: 5px;
+//   }
+// }
+
+.cont-settings {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.cont-toggle {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.pokeball-setting-bg {
+  z-index: 0;
+  position: relative;
+  margin: 0;
+  top: -100px;
+  right: -100px;
+}
+
+.pokeball-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-toggle {
+  background: none;
+  box-shadow: none;
+  border: none;
+  font-size: 20px;
+}
+
+.test-cont {
+  margin: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+  top: 50px;
+}
+
+.pop-up-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filter {
+    margin-left: 20px;
+}

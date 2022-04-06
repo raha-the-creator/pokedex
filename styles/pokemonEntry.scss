@@ -1,0 +1,104 @@
+// .tabs-cont{
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// .tabs {
+//     background-color: red;
+// }
+
+.pokemonEntry-evolution-display {
+    display: flex;
+    background-color: #151515;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+}
+
+.tabs-cont {
+    display: flex;
+    width: 500px;
+}
+
+.sec1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../public/pokeball.png");
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    padding-left: 10px;
+    flex: 1.5;
+    flex-direction: row;
+    border-radius: 25px;
+
+}
+
+.experience {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-types-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-sec {
+    display: flex;
+    width: 100%;
+    padding: 150px 50px 50px 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+}
+
+.name-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heart-cont {
+    display: flex;
+}
+
+.stat-value{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    max-width: 310px;
+    padding: 10px;
+}
+
+.stat-value > span{
+font-weight: 500;
+}

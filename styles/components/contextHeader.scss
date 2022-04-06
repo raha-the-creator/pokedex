@@ -1,0 +1,25 @@
+.context-header {
+  display: flex;
+  flex-flow: column wrap;
+  font-weight: bold;
+}
+
+.context-header-title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+
+.context-header-title > h1 {
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.context-header-title > span {
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.context-header > div > h2, p {
+  margin: 0;
+}

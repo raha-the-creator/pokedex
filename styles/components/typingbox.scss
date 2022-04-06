@@ -1,0 +1,81 @@
+@mixin typing-box($bg:#70e289) {
+  display: flex;
+  background: $bg;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.typing-box-card-Bug{
+  @include typing-box($bg:#5EDFC6);
+}
+
+.typing-box-card-Dark{
+  @include typing-box($bg:#4D4D4D);
+}
+
+.typing-box-card-Dragon{
+  @include typing-box($bg:#79E0EF);
+}
+
+.typing-box-card-Electric{
+  @include typing-box($bg:#FFEDBF);
+}
+
+.typing-box-card-Fairy{
+  @include typing-box($bg:#ED5792);
+}
+
+.typing-box-card-Fighting{
+  @include typing-box($bg:#CD7D65);
+}
+
+.typing-box-card-Fire{
+  @include typing-box($bg:#FC7F7E);
+}
+
+.typing-box-card-Flying{
+  @include typing-box($bg:#BC8AD1);
+}
+
+.typing-box-card-Ghost{
+  @include typing-box($bg:#82638F);
+}
+
+.typing-box-card-Grass{
+  @include typing-box($bg:#70E289);
+}
+
+.typing-box-card-Ground{
+  @include typing-box($bg:#C89470);
+}
+
+.typing-box-card-Ice{
+  @include typing-box($bg:#E4F7FF);
+}
+
+.typing-box-card-Normal{
+  @include typing-box($bg:#C0C0C0);
+}
+
+.typing-box-card-Poison{
+  @include typing-box($bg:#AD82E3);
+}
+
+.typing-box-card-Psychic{
+  @include typing-box($bg:#F27DA7);
+}
+
+.typing-box-card-Rock{
+  @include typing-box($bg:#AE795B);
+}
+
+.typing-box-card-Steel{
+  @include typing-box($bg:#A0A0A0);
+}
+
+.typing-box-card-Water{
+  @include typing-box($bg:#99B7FF);
+}

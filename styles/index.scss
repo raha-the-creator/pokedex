@@ -1,0 +1,47 @@
+.page-container {
+  position: relative;
+  margin: 0 30px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index-pokedex-card-display {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.button-cont {
+  display: flex;
+  button {
+    font-family: Poppins;
+    font-weight: light;
+
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin: 5px;
+  }
+}
+
+.empty-search-handle {
+  border: 2px solid #fd6c6d;
+  border-radius: 10px;
+  padding: 0 40px 20px 40px;
+}
+
+.empty-search-handle > h2 {
+  color: #fd6c6d;
+}
+
+.favourties {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 40px;
+}

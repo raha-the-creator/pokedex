@@ -1,0 +1,23 @@
+.evolution-card-cont {
+    display: flex;
+    padding-bottom: 0px;
+    padding: 0px;
+};
+
+.evolution-image-cont { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.evolution-image-icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.poke-img {
+    width: 100%;
+    height: auto;   
+}
+
+
